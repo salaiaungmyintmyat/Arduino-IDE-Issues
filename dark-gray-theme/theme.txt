@@ -1,0 +1,142 @@
+# DARK GRAY THEME
+# 14-JUN-2020
+# BASED ON "Tauno Erik's Arduino Dark Theme"
+# CREATED BY SALAI AUNG MYINT MYAT
+
+#TEXT COLOR 					#d5d8d8 - LIGHT GRAY
+
+#RESERVED FUNCTIONS COLOR		#2b85fd	- BLUE
+#RESERVED WORDS	COLOR			#78dbe7 - CYAN	(E.G. DATA_TYPES, INT, VOID, IDENTIFIER)
+
+#CLASS CONSTRUCTOR COLOR 		#a8db75 - LIGHT GREEN
+
+#PREPROCESSOR COLOR				#a99cf2	- LIGHT PURPLE
+#DOUBLE_QUOTE_STRING COLOR		#f68044 - ORANGE		
+
+#ERROR COLOR					#E34C00 - DARK ORANGE
+#COMMENTS // COLOR				#769676 - DARK GREEN
+#COMMENTS /**/ COLOR			#95a5a6	- DARK GREY
+
+# GUI - STATUS
+status.notice.fgcolor = #b9bdc5
+status.notice.bgcolor = #35373b
+status.error.fgcolor = #FFFFFF
+status.error.bgcolor = #E34C00
+status.edit.fgcolor = #FFFFFF
+status.edit.bgcolor = #F1B500
+status.font = SansSerif,plain,12
+
+# GUI - TABS
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #707070
+header.text.selected.color = #e3e3e3
+header.text.unselected.color = #929aa9
+header.text.font = SansSerif,plain,12
+
+# GUI - CONSOLE
+console.font = Monospaced,plain,11
+console.font.macosx = Monaco,plain,10
+console.color = #000000
+console.output.color = #95A5A6
+console.error.color = #E34C00
+
+# GUI - BUTTONS
+buttons.bgcolor = #606060
+buttons.status.font = SansSerif,plain,12
+buttons.status.color = #e3e3e3
+
+# GUI - PLOTTING
+plotting.bgcolor = #2c3037
+plotting.color = #95A5A6
+plotting.gridcolor = #5d6370
+plotting.boundscolor = #5d6370
+plotting.graphcolor.size = 9
+plotting.graphcolor.00 = #fc9667
+plotting.graphcolor.01 = #78dbe7
+plotting.graphcolor.02 = #a8db75
+plotting.graphcolor.03 = #ffd766
+plotting.graphcolor.04 = #a99cf2
+plotting.graphcolor.05 = #666666
+plotting.graphcolor.06 = #78dbe7
+plotting.graphcolor.07 = #000000
+
+# GUI - LINESTATUS
+linestatus.color = #d5d8d8
+linestatus.bgcolor = #35373b
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #d9d9d9
+editor.bgcolor = #202020
+
+# highlight for the current line
+editor.linehighlight.color = #333333
+# highlight for the current line
+editor.linehighlight = true
+
+# caret blinking and caret color
+editor.caret.color = #a0a0a0
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #202020
+
+# selection color
+editor.selection.color = #404652
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #78dbe7
+
+
+# TEXT - KEYWORDS
+
+# FUNCTIONS
+editor.keyword1.style = #a8db75,bold
+editor.data_type.style = #a8db75,bold
+
+# METHODS
+editor.keyword2.style = #a8db75,plain
+editor.function.style = #78dbe7,plain
+
+# STRUCTURES
+editor.keyword3.style = #2b85fd,plain
+editor.reserved_word.style = #2b85fd,plain
+
+# TEXT - LITERALS
+editor.literal1.style = #78dbe7,plain
+editor.literal2.style = #78dbe7,plain
+editor.variable.style = #78dbe7,plain
+editor.reserved_word_2.style = #78dbe7,plain
+editor.literal_boolean.style = #78dbe7,plain
+editor.literal_char.style = #78dbe7,plain
+editor.literal_string_double_quote.style = #f68044,plain
+editor.preprocessor.style = #a99cf2,plain
+
+# http://www.arduino.cc/
+editor.url.style = #0000ff,underlined
+
+# e.g. + - = /
+editor.operator.style = #a8db75,plain
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #7e7e7e,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #769676,italic
+editor.comment2.style = #95a5a6,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = SansSerif,plain,10
+linestatus.height  = 20
